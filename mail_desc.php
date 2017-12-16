@@ -9,13 +9,12 @@
   $f1q2 = $_POST['coments'];
 
   
-  $to = "Sergey Glotov <attorney@sglotov.com>".", ";
-  $to = "Developer <itm21.top@gmail.com>";
+    $to = "Developer <itm21.top@gmail.com>";
  
   
 
   $subject = "Заявка с сайта";
-  $headers = "From: Сайт Sergey Glotov <attorney@sglotov.com>\r\n";
+  $headers = "From: Сайт ";
   $headers .= "Content-type: text/plain; Charset=UTF-8\r\n";
 
   if($f1q2!='')
